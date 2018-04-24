@@ -1,0 +1,93 @@
+body {
+	background-color: #F2CB80;
+}
+
+h1 {
+	color: #F28907;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+h4 {
+	color: #590902;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+span {
+	color: #590902;
+}
+
+/*
+dane z sketch - wymiary canvas - zdefinowane na samej górze
+let widhtCanvas = 1000;	
+let heightCanvas = 600;
+*/
+
+.widthDiv {
+	width: 1040px;
+	/*background-color: green;*/
+	margin: auto;
+}
+
+#main_header {
+	height: auto;
+	margin: auto;
+}
+
+#canvasHtmlFrame {
+	height: 640px;
+	background: #190B07;
+	border-radius: 14px;
+}
+
+#canvasHtml {
+	width: 1000px;
+	height: 600px;
+	padding: 20px;
+}
+
+/* opis poniżej canvas - start */
+
+#description {
+	height: auto;
+}
+
+ul {
+	color: #F28907;
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+li {
+	margin-left: 10px;
+}
+
+/* opis poniżej canvas - finish */
+
+/*Stopka - start*/
+
+footer {
+	width: 100%;
+	background-color: #590902;
+	font-size: 15px;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 20px;
+	left: 0;
+	bottom: 0;
+}
+
+footer p {
+	color: #590902;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: auto;
+}
+
+footer p:hover {
+	color:  #F28907;
+}
+
+/*Stopka - stop*/
